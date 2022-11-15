@@ -109,4 +109,5 @@ class ZoraStore {
     }
 }
 
+// export as singleton to use the same instance in useStore hook & commands
 export const Zora = new ZoraStore();
